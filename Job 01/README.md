@@ -6,46 +6,47 @@ vous de les compléter”
 
 ● Vérifier la version d'installation de docker avec la commande
  `docker --version`
-<img src="/images/version.png">
+<img src="/Job 01/images/version.png">
+
 
 ● Tester les commandes de base dans le terminal :
  `docker info`
-<img src="/images/info.png">
+<img src="/Job 01/images/info.png">
 
  `docker ps`
- <img src="/images/ps.png">
+ <img src="/Job 01/images/ps.png">
 
  `docker images`
- <img src="/images/img1.png">
+ <img src="/Job 01/images/img1.png">
 
  `docker run <nom_image>`
- <img src="/images/run.png">
+ <img src="/Job 01/images/run.png">
 
  `docker stop <nom_conteneur>`
-<img src="/images/run2.png">
+<img src="/Job 01/images/run2.png">
 
 ● Récupérer l’image Docker
  `docker pull <nom_image>`
-<img src="/images/malo.png">
+<img src="/Job 01/images/malo.png">
 
  `docker images`
-<img src="/images/malo2.png">
+<img src="/Job 01/images/malo2.png">
 
 ● Construisez le container Docker
  `docker run -it --rm -p 8080:80 tic-tac-toe`
-<img src="/images/run3.png">
+<img src="/Job 01/images/run3.png">
 
 ● Arrêter votre container
  `docker stop <nom_conteneur>`
-<img src="/images/stop.png">
+<img src="/Job 01/images/stop.png">
 
 ● Supprimer votre container
  `docker rm <nom_conteneur>`
-<img src="/images/supp2.png">
+<img src="/Job 01/images/supp2.png">
 
 ● supprimer l’image Docker
  `docker rmi <nom_image>`
- <img src="/images/rmi.png">
+ <img src="/Job 01/images/rmi.png">
 
 
 ● Donner un exemple de ligne de commande pour ces actions
