@@ -17,3 +17,7 @@ services:
     command: node -e "setInterval(()=>{},1000)"
     networks:
       - backnet
+
+networks:
+  backnet:
+    driver: bridge
