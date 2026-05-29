@@ -14,7 +14,7 @@ La configuration Docker Compose orchestre les services nécessaires :
 
 ![Configuration Docker Compose]
 
-<img src="/job-07-lamp/img/db_compose.png>
+<img src="/job-07-lamp/img/db_compose.png">
 
 Cette image montre comment les services Apache, PHP et MySQL sont configurés et connectés ensemble pour fonctionner de manière intégrée.
 
