@@ -1,0 +1,6 @@
+# Configuration des variables d'environnement
+node_modules/
+*.log
+.env
+.gitignore
+
