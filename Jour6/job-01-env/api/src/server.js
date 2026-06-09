@@ -21,6 +21,11 @@ app.get("/", (req, res) => {
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
 // BUG VOLONTAIRE ICI 🐛
-app.listen(PORT, () => {
-console.log(`Server running on port ${PORT}`);
+// app.listen(PORT, () => {
+//   console.log(`Server running on port ${PORT}`);
+// });
+
+// // 🐛 LE BUG CORRIGÉ ICI : Écouter sur 0.0.0.0
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT} (accessible outside container)`);
 });
